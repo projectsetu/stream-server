@@ -14,7 +14,10 @@ var Schema = mongoose.Schema;
 var request = require('request');
 var bodyParser = require('body-parser');
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
+ const cmd = require('node-cmd') 
+ const crypto = require('crypto')
 
+ 
 ////////////////////////////////////////////////////////////////////////
 
 var browser_version = 'Gecko/90.0';
